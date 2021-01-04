@@ -1,0 +1,395 @@
+.texto-header {
+	font-family: "PIXEL";
+	size: 50px;
+}
+
+.conocenos {
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+.TECNICO {
+	max-height: 50%;
+	max-width: 50%;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+.instalaciones {
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.OFICINAS {
+	max-height: 50%;
+	max-width: 50%;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+.servicios {
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.productos {
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+	align-self: auto;
+}
+
+.IMG {
+	max-height: 20%;
+	max-width: 20%;
+	border-radius: 3px;
+	margin: 25px;
+}
+
+.contactanos {
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+
+
+
+<nav>
+            <ul>
+                <li> <a href="#">INICIO</a> </li>
+                <li> <a href="#">SOBRE NOSOTROS</a> </li>
+                <li> <a href="#">INSTALACIONES</a> </li>
+                <li> <a href="#">SERVICIOS</a> </li>
+                <li> <a href="#">PRODUCTOS</a> </li>
+                <li> <a href="#">CONTACTO</a> </li>
+            </ul>
+        </nav>
+
+
+--------------------------------------------------------------
+
+.contenedor{
+	font-family: "CREAM";
+	text-align: justify;
+	height: 100%;
+	width: 100%;
+	display:flex;
+    justify-content: space-between;
+}
+
+.contenedor-conocenos{
+	height:80px;
+	width:10%;
+	float:left;
+	margin: 10px;
+	
+}	
+
+.Tecnicos{
+	height: 50px;
+	width: 10%;
+	float: left;
+	margin: 10px;
+}
+
+.TECNICO{
+	max-height: 50%;
+	max-width: 50%;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+
+.contenedor-instalaciones{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.OFICINAS{
+	max-height: 70%;
+	max-width: 70%;
+	border-radius: 3px;
+	margin: 10px;
+
+}
+
+.contenedor-servicios{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.contenedor-productos{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.IMG{
+	max-height: 50%;
+	max-width: 50%;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+.redes{
+	align-items: center;
+	max-height: 70%;
+	max-width: 70%;
+	border-radius: 3px;
+	margin: 10px;
+
+}
+
+footer{
+	background-color: hsla(218, 93%, 36%, 0.54);
+	width: 100%;
+	height: 150px;
+	bottom: 10px;
+	position: relative;
+	text-align: center
+}
+
+.redes{
+	width: 3%;
+	height: 3%;
+	border-radius: 3px;
+	margin: 10px;
+	bottom: 50px;
+}
+
+----------------
+
+otro intento
+
+--------------
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: "PIXEL";
+	src: url(../TIPOGRAFIAS/dogicapixel.ttf);
+}
+
+@font-face {
+	font-family: "PIXEL1";
+	src: url(../TIPOGRAFIAS/Pixeled.ttf);
+}
+
+@font-face {
+	font-family: "REDUX";
+	src: url(../TIPOGRAFIAS/TheRedux-Regular.ttf);
+}
+
+@font-face {
+	font-family: "CREAM";
+	src: url(../TIPOGRAFIAS//cream-DEMO.ttf);
+}
+
+
+body {
+	font-family: "PIXEL";
+}
+
+#contenedor {
+	padding: 50px 0;
+	width: 90%;
+	max-width: 1500px;
+	margin: auto;
+	overflow: hidden;
+}
+
+#contenido{
+	font-family: "CREAM";
+	font-size: 24px;
+	}
+
+
+.TITULOS {
+	font-family: "PIXEL";
+	font-size: 30px;
+	color: rgb(0, 0, 228);
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+header {
+	width: 100%;
+	height: 600px;
+	background: #373B44;
+	background: -webkit-linear-gradient(to right, #4286f4, #373B44), linear-gradient(to right, hsla(217, 89%, 61%, 0.537), hsla(222, 11%, 24%, 0.625)), url(../IMG/FONDOS/Fondo_1.jpg);
+	background: linear-gradient(to right, hsla(217, 89%, 61%, 0.537), hsla(222, 11%, 24%, 0.625)), url(../IMG/FONDOS/Fondo_1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+nav {
+	font-family: "CREAM";
+	text-align: center;
+	padding-inline-start: 0%;
+}
+
+nav>a {
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+nav>a:hover {
+	text-decoration: underline;
+}
+
+.WAVE {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+header .texto-header {
+	display: flex;
+	height: 500px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.texto-header h1 {
+	font-size: 70px;
+	font-weight: 300;
+	color: white;
+}
+
+.texto-header h2 {
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+}
+
+footer{
+	width: 100%;
+	height: 100px;
+	bottom: 20px;
+	position: relative;
+	text-align: center;
+}
+
+.redes{
+	width: 3%;
+	height: 3%;
+	border-radius: 3px;
+	margin: 10px;
+	bottom: 50px;
+}
+
+
+/*AQUÍ VIENEN LOS PROBLEMAS*/
+
+.contenedor {
+	font-family: "CREAM";
+	text-align: justify;
+}
+
+.imagenes{
+	display: block;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+---------------------------
+
+
+
+contacto 
+
+-----
+
+<div id="registro">
+        <h1 class="TITULOS">CONTACTE CON NOSOTROS</h1>
+        <form action="procesar-incidencia.php" method="POST" name="Formulario" target="_blank" autocomplete="on">
+            <fieldset>
+                <legend>
+                    <h2>Dejenos sus datos</h2>
+                </legend><br>
+                <p>
+                    <input type="text" placeholder="Nombre" name="nombre" required>NOMBRE<br>
+                    <input type="text" placeholder="Apellido 1" name="Apellido_1" required>APELLIDO<br>
+                    <input type="text" placeholder="Apellido 2" name="Apellido_2" required>APELLID 2<br>
+                    <input type="text" placeholder="Dirección Postal" name="DireccionPostal" required><br>
+                    <input type="text" placeholder="Portal"><br>
+                    <input type="text" placeholder="Número"><br>
+                    <input type="text" placeholder="Código Postal" name="CodigoPostal" minlength="0" maxlength="5"><br>
+                    <input type="text" placeholder="Población" name="Poblacion"><br>
+                    <input type="text" placeholder="País" name="Pais"><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" name="CorreoElectronico"><br>
+                   
+                    <p>
+                        <label for="Nombre">ASUNTO:</label><br>
+                        <select name="Departamento">
+                            <option>Conusltoría</option>
+                            <option>Desarrollo de Proyectos</option>
+                            <option>Ciberseguridad</option>
+                            <option>Pedidos</option>
+                            <option>Otros</option>
+                        </select>
+                    </p>
+
+                    <label for="Descripción">MENSAJE</label><br>
+                    <textarea name="Descripción" cols="100%" rows="4"></textarea><br>
+                    <button input type="submit" name="Enviar">Enviar</button>
+                    <button input type="reset" name="Borrar">Borrar</button><br><br>
+                    <label for="Adjuntar"></label>Adjuntar Archivo<br>
+                    <input type="file" name="Adjuntar" accept=".txt,.pdf,.docx,.jpg" required><br>
+                </p>
+            </fieldset>
+        </form>
+    </section>
+
+    <section class="cotenedor">
+        <h1>Encuentranos Aquí</h1>
+        <iframe class="MAPA"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.8676965774034!2d-3.6896707849356214!3d40.478191879358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42296c77dd79bb%3A0x71c4c0119b99b3b!2sCuatro%20Torres!5e0!3m2!1ses!2ses!4v1609623895124!5m2!1ses!2ses"
+            width="600" height="450" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+</body>
+
+
+<footer>
+    <div class="PIES">
+        <h4>Síguenos en Redes</h4>
+        <div>
+            <img class="redes" src="./PNG/facebook.png" alt="">
+            <img class="redes" src="./PNG/instagram.png" alt="">
+            <img class="redes" src="./PNG/twitter.png" alt="">
+            <img class="redes" src="./PNG/linkedin.png" alt="">
+        </div>
+    </div>
+    <h2 class="FINAL">&copy; Oscar Maya Web Design</h2>
+</footer>
+
+</html>

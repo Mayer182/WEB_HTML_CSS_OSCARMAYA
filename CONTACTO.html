@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./PNG/conector.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>PIXEL LIFE</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <a href="SOBRE NOSOTROS.html">SOBRE NOSOTROS</a>
+            <a href="INSTALACIONES.html">INSTALACIONES</a>
+            <a href="SERVICIOS.html">SERVICIOS</a>
+            <a href="PRODUCTOS.html">PRODUCTOS</a>
+            <a href="CONTACTO.html">CONTACTO</a>
+        </nav>
+
+        <section class="texto-header">
+            <h1>PIXEL LIFE</h1><br>
+            <h2>SERVICIOS INTEGRALES DE RED Y CIBERSEGURIDAD</h2>
+        </section>
+
+        <div class="WAVE" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+                <path d="M0.00,49.99 C150.00,150.00 349.20,-49.99 500.00,49.99 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: white;"></path>
+            </svg>
+        </div>
+    </header>
+
+    <div class="registro">
+        <h1 class="TITULOS">CONTACTE CON NOSOTROS</h1>
+        <form class="formulario" action="mailto:raul.rodriguez@universidadeuropea.es" method="POST"
+            enctype="multipart/form-data" autocomplete="on">
+            <fieldset>
+                <legend>
+                    <h2>Dejenos sus datos</h2>
+                </legend><br>
+                <p>
+                    <input type="text" placeholder="Nombre" name="nombre" required><br>
+                    <input type="text" placeholder="Apellido 1" name="Apellido_1" required><br>
+                    <input type="text" placeholder="Apellido 2" name="Apellido_2" required><br>
+                    <input type="text" placeholder="Dirección Postal" name="DireccionPostal" required><br>
+                    <input type="text" placeholder="Portal"><br>
+                    <input type="text" placeholder="Número"><br>
+                    <input type="text" placeholder="Código Postal" name="CodigoPostal" minlength="0" maxlength="5"><br>
+                    <input type="text" placeholder="Población" name="Poblacion"><br>
+                    <input type="text" placeholder="País" name="Pais"><br>
+                    <label for="email">E-mail:</label><br>
+                    <input type="email" name="CorreoElectronico"><br>
+
+                    <label for="Nombre">ASUNTO:</label><br>
+
+                    <select name="Departamento">
+                        <option>Conusltoría</option>
+                        <option>Desarrollo de Proyectos</option>
+                        <option>Ciberseguridad</option>
+                        <option>Pedidos</option>
+                        <option>Otros</option>
+
+                    </select>
+                    <br>
+                    <label for="Descripción">MENSAJE</label><br>
+
+                    <textarea name="Descripción" cols="100%" rows="4"></textarea><br>
+
+                    <button input type="submit" name="Enviar">Enviar</button>
+                    <button input type="reset" name="Borrar">Borrar</button><br><br>
+
+                    <label for="Adjuntar"></label>Adjuntar Archivo<br>
+
+                    <input type="file" name="Adjuntar" accept=".txt,.pdf,.docx,.jpg" required><br>
+                </p>
+            </fieldset>
+        </form>
+        </section>
+    </div>
+
+    <section class="MAPA">
+        <h1>Encuentranos Aquí</h1>
+        <br><br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3034.8676965774034!2d-3.6896707849356214!3d40.478191879358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42296c77dd79bb%3A0x71c4c0119b99b3b!2sCuatro%20Torres!5e0!3m2!1ses!2ses!4v1609623895124!5m2!1ses!2ses"
+            width="600" height="450" frameborder="0" style="border:0;" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+</body>
+<br><br><br>
+
+<footer id="finpagina">
+    <div class="PIES">
+        <h4>Síguenos en Redes</h4>
+        <div>
+            <a href="https://www.facebook.com/"><img class="redes" src="./PNG/facebook.png"></a>
+            <a href="https://www.instagram.com/"><img class="redes" src="./PNG/instagram.png"></a>
+            <a href="https://twitter.com/"><img class="redes" src="./PNG/twitter.png"></a>
+            <a href="https://es.linkedin.com/"><img class="redes" src="./PNG/linkedin.png"></a>
+        </div>
+    </div>
+    <h2 class="FINAL">&copy;Oscar Maya Web Design</h2>
+</footer>
+
+
+</html>
